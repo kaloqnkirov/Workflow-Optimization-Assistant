@@ -1,0 +1,10 @@
+{
+  "name": "workflow-optimization-assistant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/run-test.ps1",
+    "setup-node": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-node.ps1",
+    "smoke": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/smoke.ps1"
+  }
+}
